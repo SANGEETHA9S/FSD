@@ -1,0 +1,37 @@
+:root{
+     --primary : #ff4b2b;
+     --secondary : #ff416c;
+     --light : #fff;
+} 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+ a {
+    color: var(--light);
+    text-decoration:none ;
+}
+header{
+    background:linear-gradient(to right, var(--primary), var(--secondary));
+     font-size:large;
+}
+
+nav{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 80%;
+} 
+.nav-links{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero{
+     
+    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80);
+}
